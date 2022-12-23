@@ -6,4 +6,4 @@
 
 <p>You can check how it looks visiting the link below:</p>
 
-<h3><a href="https://survey-form-codingisads.netlify.app" alt="survey-form-codingisads" target="_blank">Marie Curie Tribute Page</a></h3>
+<h3><a href="https://mariecurie-codingisads.netlify.app" target="_blank">Marie Curie Tribute Page</a></h3>
