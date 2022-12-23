@@ -115,9 +115,12 @@ h2{
     width: 50%;
 }
 
-@media (max-width: 445px) {
+@media (max-width: 490px) {
     #highlight-info >img{
         width: 100%;
+    }
+    #highlight-info > ul > li{
+        color: rebeccapurple;
     }
 }
 
