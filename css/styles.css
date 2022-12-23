@@ -115,6 +115,12 @@ h2{
     width: 50%;
 }
 
+@media (max-width: 445px) {
+    #highlight-info >img{
+        width: 100%;
+    }
+}
+
 #tribute-info > h2{
     text-align: center;
 }
