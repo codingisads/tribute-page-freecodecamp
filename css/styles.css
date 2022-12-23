@@ -69,11 +69,18 @@ h1{
     margin-top: 0;
     font-style: italic;
     animation-name: animation;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-delay: 0.5s;
     animation-fill-mode: backwards;
 }
 
 #tribute-info{
     margin-top: 4rem;
+}
+
+@media (min-width: 2000px) {
+    body{
+        width: 60%;
+        margin: 0 auto;
+    }
 }
