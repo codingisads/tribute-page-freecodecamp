@@ -1,0 +1,79 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(43, 43, 43);
+}
+
+body{
+    margin: 0;
+    font-size: 18px;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+figure{
+    margin: 0;
+}
+
+h1{
+    font-size: 38px;
+}
+
+
+.img-info{
+    margin-bottom: 20rem;
+}
+
+#img-div{
+    margin: auto;
+    width: 100%;
+}
+
+#image{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption, #title, #subtitle{
+    text-align: center;
+}
+
+#img-caption{
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+@keyframes animation {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#title{
+    margin-top: 10rem;
+    margin-bottom: 0;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    #subtitle { animation: none !important; }
+  }
+
+#subtitle{
+    margin-bottom: 10rem;
+    margin-top: 0;
+    font-style: italic;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+#tribute-info{
+    margin-top: 4rem;
+}
